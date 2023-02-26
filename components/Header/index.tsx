@@ -1,10 +1,10 @@
 import React from "react";
 import { HeaderContainer, Nav } from "./style";
-import { BsPerson } from "react-icons/Bs";
+import { BsPerson } from "react-icons/bs";
 import { VscSearch } from "react-icons/vsc";
-import { HiOutlineHome } from 'react-icons/Hi';
-import { AiOutlineAppstore } from "react-icons/Ai";
-import {TbDeviceGamepad2} from "react-icons/Tb"
+import { HiOutlineHome } from 'react-icons/hi';
+import { AiOutlineAppstore } from "react-icons/ai";
+import {TbDeviceGamepad2} from "react-icons/tb"
 
 const Header: React.FC = () => {
   return (
