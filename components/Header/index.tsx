@@ -6,7 +6,7 @@ import { HiOutlineHome } from 'react-icons/Hi';
 import { AiOutlineAppstore } from "react-icons/Ai";
 import {TbDeviceGamepad2} from "react-icons/Tb"
 
-const Header: React.FC = ({state}: any) => {
+const Header: React.FC = () => {
   return (
     <HeaderContainer>
       <div className="top">

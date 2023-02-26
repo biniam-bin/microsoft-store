@@ -5,10 +5,10 @@ import Header from '../Header'
 
 
 
-function Layout({children, state}: any) {
+function Layout({children}: any) {
   return (
       <>
-          <Header state={state} />
+          <Header />
           {children}
       </>
   )

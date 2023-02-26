@@ -12,6 +12,7 @@ import {
 } from "./style";
 import Carousel from "react-elastic-carousel";
 import StarRatings from "react-star-ratings";
+import Link from "next/link";
 
 const HeroCard: React.FC = () => {
   const [hover, setHover] = useState<boolean>(false);
@@ -86,7 +87,7 @@ const TopFree: React.FC = () => {
       <div className="title">
         <h3>Top free apps</h3>
         <p>
-          <a href="/">See all</a>
+          <Link href="/">See all</Link>
         </p>
       </div>
       <TopCardsContainer>
